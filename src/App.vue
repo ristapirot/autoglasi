@@ -1,18 +1,17 @@
 <template>
   <div id="app">
-    <NavbarHome />
-    <HelloWorld />
+    <div id="content">
+      <router-view></router-view>
+    </div>
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
 import NavbarHome from './components/NavbarHome.vue'
 
 export default {
   name: 'app',
   components: {
-    HelloWorld,
     NavbarHome
   }
 }
@@ -23,5 +22,11 @@ export default {
     font-family: 'Lato', sans-serif;
     height: 100vh;
     display: flex;
+    justify-content: center
+  }
+
+  #content {
+    height: 100%;
+    width: 75%;
   }
 </style>
