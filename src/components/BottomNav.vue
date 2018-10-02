@@ -7,13 +7,13 @@
     shift
     >
     <v-btn dark>
-        <span>Najnovije</span>
-        <v-icon>directions_car</v-icon>
+        <span>Pretraga</span>
+        <v-icon>search</v-icon>
     </v-btn>
 
     <v-btn dark>
-        <span>Pretraga</span>
-        <v-icon>search</v-icon>
+        <span>Postavi oglas</span>
+        <v-icon>add_circle_outline</v-icon>
     </v-btn>
 
     <v-btn dark>
